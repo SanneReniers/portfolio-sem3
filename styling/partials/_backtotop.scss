@@ -1,0 +1,17 @@
+/* Partial : back to top */
+
+.back-to-top {
+
+    .back-to-top__button {
+        width: 3%;
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+        z-index: 10;
+        transition: all .2s ease-in-out; 
+
+        &:hover {
+            transform: scale(1.1); 
+        }
+    }
+}

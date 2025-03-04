@@ -1,0 +1,36 @@
+/* Partial : Caroussel */
+
+.caroussel {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: row;
+    overflow: hidden;
+
+    .caroussel-items {
+        display: flex;
+        gap: 20px;
+        overflow: hidden;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .caroussel-item {
+        background-color: var(--brown);
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: 37vh;
+    }
+
+    .next, .previous {
+        width: 3%;
+        cursor: pointer;
+        top: 40%;
+        position: relative;
+    }
+}

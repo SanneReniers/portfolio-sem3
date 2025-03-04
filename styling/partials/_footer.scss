@@ -1,0 +1,16 @@
+/* Footer */
+
+footer {
+    position: relative;
+    top: -6vh;
+    height: 40vh;
+
+    .footer__background-image {
+        position: absolute;
+        height: 50vh;
+        width: 100vw;
+        object-fit: cover;
+        object-position: top;
+        background-color: var(--grey);
+    }
+}

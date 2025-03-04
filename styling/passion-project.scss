@@ -1,0 +1,363 @@
+/* Section : passion landing */
+
+.passion-landing {
+    position: relative;
+    height: 100vh;
+    overflow: visible;
+
+    .passion-landing__background-image {
+        position: absolute;
+        top: -10%;
+        right: 0;
+        height: 170vh;
+    }
+
+    .passion-landing__title {
+        margin: 0;
+        position: relative;
+        margin-left: 9%;
+        color: var(--brown);
+        font-family: "Luminari";
+        text-transform: uppercase;
+        font-size: 100px;
+        line-height: 1;
+        margin-top: 8%;
+        font-weight: 400;
+        z-index: 1;
+    }
+
+    .passion-landing__subtitle {
+        position: relative;
+        left: 10%;
+        margin: 0;
+    }
+
+    .passion-landing__paragraph {
+        position: relative;
+        left: 10%;
+        width: 25%;
+    }
+}
+
+/* Section : passion intro */
+
+.passion-intro {
+    padding-left: 9%;
+    position: relative;
+    top: -25vh;
+
+    .passion-intro__title {
+        margin: 0;
+    }
+
+    .passion-intro__paragraph {
+        width: 65%;
+    }
+
+    input[type=button] {
+        background: url(../images/button-background__brown.png);
+        color: var(--white);
+        padding: 16px 15px 16px 12px;
+    }
+}
+
+/* Section : passion Main info */
+
+.passion-maininfo {
+    padding-left: 9%;
+    position: relative;
+    height: 60vh;
+
+    .passion-maininfo__title {
+        margin: 0;
+    }
+
+    input[type=button] {
+        background: url(../images/button-background__brown.png);
+        color: var(--white);
+        padding: 16px 15px 16px 12px;
+    }
+
+    .passion-maininfo__content {
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+
+        .passion-maininfo__time-software, .passion-maininfo__legend, .passion-maininfo__deliverables {
+            line-height: 25px;
+        }
+    }
+}
+
+/* Section : passion Reflection */
+
+.passion-reflection {
+
+    padding-left: 9%;
+    margin-bottom: 100px;
+
+    input[type=button] {
+        background: url(../images/button-background__brown.png);
+        color: var(--white);
+        padding: 10px 24px 17px 21px;
+    }
+
+    .passion-reflection__title {
+        margin: 0;
+    }
+
+    /* Component : Reflections */
+
+    .passion-reflection__iterations {
+        margin-bottom: 65px;
+        width: 90%;
+
+        .passion-reflection__iterations-title {
+            font-size: 30px;
+        }
+
+        .passion-reflection__iterations-paragraph {
+            margin-bottom: 5px;
+        }
+
+        .passion-reflection__iterations-list {
+            margin-top: 5px;
+        }
+    }
+}
+
+/* Section : Quickk access */
+
+.passion-reflection__quick-access {
+    padding-left: 9%;
+}
+
+/* Section : Content */
+
+.passion-content {
+    padding-left: 9%;
+    margin-bottom: 100px;
+
+    input[type=button] {
+        background: url(../images/button-background__brown.png);
+        color: var(--white);
+        padding: 10px 24px 17px 21px;
+    }
+
+    .passion-content__title {
+        margin: 0;
+    }
+
+    .passion-content__image {
+        height: 35vh;
+        width: 37vw;
+        object-fit: cover;
+        object-position: top;
+        border-bottom: 9px solid brown;
+        border: 7px solid var(--brown);
+        border-radius: 10px;
+    }
+
+    .passion-content__paragraph {
+        width: 45%;
+        margin-right: 1.5%;
+    }
+
+    .passion-content__image-description {
+        margin: 0;
+    }
+
+    .passion-content__title {
+        width: 100%;
+    }
+
+    .passion-content__container-images {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .passion-content__container {
+        width: 45%;
+        margin-right: 1.5%;
+    }
+
+    .passion-content__paragraph-full-width {
+        width: 96%;
+    }
+
+    .image-center {
+        object-position: center;
+        object-fit: contain;
+        background-color: white;
+    }
+}
+
+/* Section : Content - Career day */
+
+.passion-content__career-day {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+}
+
+/* Section : Content - project plan */
+
+.passion-content__project-plan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+}
+
+/* Section : Content - MoSCoW */
+
+.passion-content__moscow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+}
+
+/* Section : Content - Research */
+
+.passion-content__research {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+
+    input[type=button] {
+        background: url(../images/button-background__brown.png);
+        color: var(--white);
+        padding: 16px 20px 14px 15px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+/* Section : Content - Inspiration */
+
+.passion-content__inspiration {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+}
+
+/* Section : Content - Prototype */
+
+.passion-content__prototype {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__container-full-width {
+        width: 100%;
+        margin-right: 150px;
+    }
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+
+    input[type=button] {
+        background: url(../images/button-background__brown.png);
+        color: var(--white);
+        padding: 16px 20px 14px 15px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+/* Section : Content - Development */
+
+.passion-content__development {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__container-full-width {
+        width: 100%;
+        margin-right: 150px;
+    }
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+
+    .small-image-width {
+        height: 24vh !important;
+    }
+
+    input[type=button] {
+        background: url(../images/button-background__brown.png);
+        color: var(--white);
+        padding: 16px 35px 21px 36px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+
+
+/* Section : Overall reflection */
+
+.passion__overall-reflection {
+    padding: 0 9%;
+    margin-bottom: 100px;
+
+
+    .passion__overall-reflection__paragraph {
+        width: 96%;
+    }
+
+    .passion__overall-reflection__title {
+        margin: 0;
+    }
+}
+
+/* Section : Semester reflection */
+
+.passion-content__semester-reflection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    .passion-content__paragraph {
+        width: 40%;
+    }
+}

@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  background-color: #E9EAE9;
+}
+
+main {
+  overflow: hidden;
+}
+
+/* Section : Landing */
+.landing {
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  height: 87vh;
+}
+.landing .landing__background-styling {
+  width: 100vw;
+  height: 120vh;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.landing .landing__background-styling .landing__background-image {
+  width: 100vw;
+  /* height: 115vh; */
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  /* object-position: bottom; */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.landing .landing__svg-cat {
+  height: auto;
+  position: absolute;
+  left: 2%;
+  bottom: 17%;
+}
+.landing .landing__svg-racoon {
+  position: absolute;
+  right: 11%;
+  bottom: 23%;
+}
+.landing input[type=button] {
+  background-image: url(../images/button-background__brown.png);
+  padding: 20px;
+  font-size: 17px;
+  color: var(--white);
+  margin-left: -10px;
+  position: relative;
+}
+.landing input[type=button]:hover {
+  cursor: pointer;
+}
+.landing .landing__paragraph {
+  position: relative;
+  width: 30%;
+  margin: 0;
+  margin-top: 15px;
+}
+.landing .landing__subtitel {
+  position: relative;
+  margin: 0;
+}
+.landing .landing__title {
+  margin: 0;
+  position: relative;
+  margin-left: 9%;
+  color: var(--brown);
+  font-family: "Luminari";
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: 1;
+  margin-top: 64px;
+  font-weight: 400;
+  z-index: 1;
+}
+.landing .title, .landing .subtitle, .landing .paragraph, .landing .button {
+  z-index: 10;
+  margin-left: 170px !important;
+}
+
+/* Section: My work */
+.my-work {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-work .my-work__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12%;
+  margin-top: 5%;
+}
+.my-work .my-work__content .my-work__paragraph {
+  width: 20%;
+}
+.my-work .my-work__carousel {
+  display: flex;
+  gap: 2%;
+  position: relative;
+  left: 8%;
+}
+.my-work .my-work__carousel .my-work__carousel-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--brown);
+  color: var(--white);
+  width: 27%;
+}
+.my-work .my-work__carousel .my-work__carousel-item .my-work__carousel-image {
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+.my-work .my-work__carousel .my-work__carousel-item .image-l {
+  height: 55% !important;
+}
+.my-work .my-work__carousel .my-work__carousel-item .my-work__carousel-titel {
+  margin-bottom: 10px;
+}
+.my-work .my-work__carousel .my-work__carousel-item .my-work__carousel-paragraph {
+  color: var(--white);
+  text-align: center;
+  margin: 0 15px;
+  margin-bottom: 25px;
+}
+.my-work .my-work__carousel .my-work__carousel-item a {
+  display: flex;
+  justify-content: center;
+}
+.my-work .my-work__carousel .my-work__carousel-item input[type=button] {
+  background: url(../images/button__white.png);
+  background-position: center !important;
+  text-align: center;
+  padding: 13px;
+  font-size: 20px;
+  color: var(--brown);
+}
+.my-work .my-work__background-image {
+  z-index: -1;
+  position: absolute;
+  height: 120vh;
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  top: 0;
+}
+.my-work .item-l {
+  height: 114%;
+}
+
+/* Section : About me */
+.about-me {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-me .about-me__title {
+  margin: 0;
+  margin-left: 9%;
+}
+.about-me .about-me__paragraph {
+  margin: 0;
+  margin-left: 9%;
+  width: 40%;
+}
+.about-me .about-me__background-image {
+  position: absolute;
+  top: -61%;
+  z-index: -5;
+  height: 165vh;
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+.about-me input[type=button] {
+  background: url(../images/button-background__brown.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 20px 34px;
+  border: none;
+  font-size: 20px;
+  color: var(--white);
+  font-family: "optima";
+  text-transform: uppercase;
+  background-color: transparent;
+  margin-left: 9%;
+  text-align: left;
+}
+
+/* Section : Learning outcomes */
+.learning-outcomes {
+  position: relative;
+  height: 117vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+}
+.learning-outcomes .learning-outcomes__background-image {
+  position: absolute;
+  z-index: -9;
+  height: 120vh;
+  width: 100vw;
+  top: -2%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  background-color: var(--grey);
+}
+.learning-outcomes .learning-outcomes__content {
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.learning-outcomes .learning-outcomes__content input[type=button] {
+  background: url(../images/button-background__brown.png);
+  padding: 24px 13px;
+  color: var(--white);
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__title {
+  margin: 0;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__paragraph {
+  margin: 0;
+  width: 80%;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel {
+  margin-top: 10%;
+  margin-left: -5%;
+  width: 84%;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__component-previous, .learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__component-next {
+  width: 3%;
+  cursor: pointer;
+  top: 40%;
+  position: relative;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__caroussel-item .learning-outcomes__caroussel-image {
+  width: 93%;
+  height: 47%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__caroussel-item .learning-outcomes__caroussel-title {
+  font-size: 20px !important;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__caroussel-item .learning-outcomes__caroussel-paragraph {
+  color: var(--white) !important;
+  text-align: center;
+  margin-top: 5px;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__caroussel-item input[type=button] {
+  background: url(../images/button__white.png);
+  padding: 7px 23px;
+  color: var(--brown);
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__caroussel-item input[type=button]:hover {
+  cursor: pointer;
+}
+.learning-outcomes .learning-outcomes__content .learning-outcomes__caroussel .learning-outcomes__caroussel-item img {
+  width: 58%;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=home.css.map */

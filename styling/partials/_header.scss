@@ -1,0 +1,71 @@
+/* -- Section : Header -- */
+
+.header {
+    display: flex;
+    z-index: 10;
+    position: relative;
+    padding: 10px;
+    padding-left: 150px;
+
+    .header__logo {
+        width: 50px;
+        height: auto;
+    }
+
+    .header__menu {
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        font-family: 'optima';
+
+        .header__menuitem {
+            color: var(--brown);
+            text-transform: uppercase;
+            font-size: 22px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--brown);
+    }
+}
+
+.header__menudropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--brown);
+    color: var(--white)!important;
+    text-align: left;
+    width: 8%;
+
+    p {
+        padding: 10px 0 10px 10px;
+        margin: 0;
+
+        &:hover {
+            background-color: var(--orange);
+            color: var(--white);
+        }
+    }
+
+    a {
+        color: var(--white);
+    }
+}
+
+.header__projectsbutton:hover .header__menudropdown {
+    display: block!important;
+}
+
+.header__menudropdown:hover {
+    display: block;
+}
+
+.active {
+    font-weight: 600;
+}

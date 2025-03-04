@@ -1,0 +1,61 @@
+/* Component : LO IMG */
+
+.lo-img {
+    height: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Component : Full image */
+
+.full-image {
+    height: fit-content !important;
+}
+
+/* Component : Vertical image */
+
+.vertical-image {
+    height: 60vh!important;
+    width: fit-content!important;
+}
+
+/* Component : Small image */
+
+.small-image {
+    width: 18vw!important;
+}
+
+/* Component : Small image full width */
+
+.small-image-width {
+    width: fit-content!important;
+}
+
+/* Component : Small container */
+
+.small-container {
+    width: 20%!important;
+    margin-right: 20px;
+}
+
+/* Component : Half container */
+
+.half-container {
+    width: 45%!important;
+}
+
+/* Component : Container vertical */
+
+.container-vertical {
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    width: 40vw !important;
+}
+
+/* Component : Feedpulse */
+
+#image__feedpulse {
+    width: 10vw;
+    border: 3px solid var(--brown);
+    cursor: pointer;
+}
